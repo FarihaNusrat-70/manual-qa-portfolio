@@ -1,0 +1,16 @@
+Title: Error message missing when email field is empty
+
+Steps to Reproduce:
+1. Open Facebook login page
+2. Leave email field empty
+3. Enter password
+4.Click Login
+
+Expected Result:
+Error message “Email is required” should be displayed.
+
+Actual Result:
+No error message is shown.
+
+Severity: High
+Priority: Medium
