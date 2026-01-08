@@ -1,0 +1,16 @@
+Title: Incorrect error message for wrong password
+
+Steps to Reproduce:
+1. Open login page
+2. Enter valid email
+3. Enter wrong password
+4. Click “Log In”
+
+Expected Result:
+Error message: “Incorrect password”.
+
+Actual Result:
+Error message: “User not found”.
+
+Severity: High
+Priority: High
