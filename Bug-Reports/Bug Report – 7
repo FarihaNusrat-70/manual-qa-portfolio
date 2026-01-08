@@ -1,0 +1,13 @@
+Title: Product image overlaps text in Firefox
+
+Steps to Reproduce:
+1. Open product page in Firefox browser
+
+Expected Result:
+UI should be properly aligned
+
+Actual Result:
+Product image overlaps product description text
+
+Severity: Low
+Priority: Low
