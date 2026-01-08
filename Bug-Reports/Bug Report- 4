@@ -1,0 +1,14 @@
+Title: Login page UI breaks on mobile view
+
+Steps to Reproduce:
+1. Open Facebook login page on mobile browser
+2. Rotate screen to landscape mode
+
+Expected Result:
+UI should adjust properly to screen size.
+
+Actual Result:
+Login button overlaps with text field.
+
+Severity: Low
+Priority: Medium
