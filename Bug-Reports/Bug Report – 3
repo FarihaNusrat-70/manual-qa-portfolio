@@ -1,7 +1,7 @@
 Title: Password field accepts more than allowed characters
 
 Steps to Reproduce:
-1. Open Facebook login page
+1. Open login page
 2. Enter valid email
 3. Enter very long password (200+ characters)
 4. Click “Log In”
