@@ -1,0 +1,14 @@
+Title: Multiple items added when clicking Add to Cart quickly
+
+Steps to Reproduce:
+1. Open product page
+2. Click Add to Cart rapidly
+
+Expected Result:
+Only one item should be added
+
+Actual Result:
+Multiple items are added
+
+Severity: Medium
+Priority: Medium
