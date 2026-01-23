@@ -20,3 +20,23 @@ I tested public APIs by sending GET and POST requests and validated responses.
 ### POST Request
 - Verify status code is 201
 - Verify response contains id
+
+## DELETE Request Testing
+
+### Endpoint
+DELETE {{base_url}}/posts/1
+
+### Scenario
+Verify that an existing post can be deleted successfully.
+
+### Observation
+Initially, a 500 Internal Server Error was returned because a non-JSON body was sent with the DELETE request.
+
+### Root Cause
+DELETE requests generally do not require a request body. Sending plain text instead of valid JSON caused a parsing error on the server.
+
+### Fix
+Removed the request body and resent the DELETE request.
+
+### Result
+API responded successfully after correcting the request.
